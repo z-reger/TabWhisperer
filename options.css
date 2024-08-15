@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#threshold-settings {
+    margin-top: 20px;
+}

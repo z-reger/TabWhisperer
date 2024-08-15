@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Whisperer Settings</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <h1>Tab Whisperer Settings</h1>
+    <div id="category-settings">
+        <h2>Manage Categories</h2>
+        <input type="text" id="new-category-name" placeholder="New Category Name">
+        <button id="add-category-btn">Add Category</button>
+        <ul id="category-list"></ul>
+    </div>
+    <div id="threshold-settings">
+        <h2>Set Inactivity Threshold (minutes)</h2>
+        <input type="number" id="inactivity-threshold" min="1">
+        <h2>Set Reminder Threshold (minutes)</h2>
+        <input type="number" id="reminder-threshold" min="1">
+        <button id="save-thresholds-btn">Save Thresholds</button>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
